@@ -12,6 +12,7 @@ Ejectute la build:dev y a continuacion la run deploy
 
 Añadi la carpeta .github/workflows/cd.yml e introduje la configuracion
 
+```yaml
 name: CD workflow organization
 
 on:
@@ -40,6 +41,7 @@ jobs:
         run: npm run build
       - name: Deploy
         run: npm run deploy -- -r git@github.com:Danielmedi9/laboratorio-gh-actions.git
+```
 
 Donde configuro la build y SSH
 
