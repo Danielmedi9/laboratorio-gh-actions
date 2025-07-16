@@ -30,4 +30,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy -- -r git@github.com:Danielmedi9/laboratorio-gh-pages.git
+        run: npm run deploy -- -r git@github.com:Danielmedi9/laboratorio-gh-actions.git
